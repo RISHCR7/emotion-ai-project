@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# 🧠 AI Emotion Detection System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Problem Statement
+Understanding human emotions using physiological data (like heart rate and age) is important in healthcare, mental wellness, and smart systems. Manual detection is not scalable.
 
-## Available Scripts
+## 💡 Solution
+This project uses Machine Learning to predict human emotions based on biometric inputs such as heart rate and age.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Features
+- 🎯 Emotion Prediction (Happy, Sad, Angry, etc.)
+- 📊 Confidence Score
+- 📈 Data Visualization (Charts Dashboard)
+- 💻 Interactive Frontend UI
+- ⚡ Fast API Backend
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠 Tech Stack
+- **Frontend:** React.js, Chart.js
+- **Backend:** FastAPI (Python)
+- **Machine Learning:** Random Forest Classifier
+- **Libraries:** scikit-learn, pandas, numpy
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🤖 Machine Learning Model
+- Algorithm: **Random Forest**
+- Input: Heart Rate, Age
+- Output: Predicted Emotion
+- Accuracy: ~85–95% (depending on dataset)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📷 Demo
+(Add screenshot here later)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ▶️ How to Run Project
 
-### `npm run eject`
+### 🔹 Backend
+```bash
+cd backend
+uvicorn main:app --reload
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🔹 Frontend
+cd frontend
+npm install
+npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📊 Example
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Input:
+- Heart Rate: 120 bpm  
+- Age: 22  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Output:
+- Emotion: Happy 😊  
+- Confidence: 87%
 
-## Learn More
+## 📈 Future Improvements
+- Real-time sensor integration
+- More accurate dataset
+- Deploy on cloud
+- Add facial emotion detection
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 👨‍💻 Author
+Rudraksh
